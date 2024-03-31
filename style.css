@@ -46,6 +46,10 @@ body {
   color: cadetblue;
 }
 
+.tulis {
+  justify-content: center;
+  align-items: center;
+}
 .gmbr1 {
   align-items: center;
   display: flex;
