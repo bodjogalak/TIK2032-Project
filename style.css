@@ -47,9 +47,8 @@ body {
 }
 
 .tulis {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 35px;
+  margin-left: 10px;
 }
 .gmbr1 {
   align-items: center;
