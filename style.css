@@ -10,6 +10,7 @@ body {
 
 
 .l1nk {
+  list-style-type: none;
   margin-top: 10%;
 }
 .navbar {
