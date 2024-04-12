@@ -34,7 +34,7 @@ body {
 .ul-navbar {
  /* font-size: 200%; */
 
-  box-sizing: border-box; 
+  box-sizing: border-box; /* ini adalah buat box-sizing */
   display: flex;
   padding: 5px; /* 10px */
   justify-content: center;
