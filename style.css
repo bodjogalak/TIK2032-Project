@@ -123,6 +123,20 @@ justify-content: center;
 .ul-navbar1 {
   list-style-type: none;
 }
+
+.ul-navbar1 a {
+
+color: black;
+}  
+
+ /* buat navbar1 di contact.html */
+.ul-navbar a:hover {
+  color: rgb(0, 0, 255);
+  border-bottom: 1px solid blue;
+
+}  
+
+
 .kontak {
   display: flex;
   justify-content: center;
