@@ -16,19 +16,43 @@ body {
 .navbar {
   background-color: rgb(255, 255, 255);
 }
+ /* Navbar dalam kotak hitam css disetting */
+.li-navbar {
+
+font-size: 200%;
+
+list-style-type: none;
+
+padding: 30px; /* 30px */
+
+margin: 2%; /* 2% */
+  
+border: 2px solid black;  
+} 
+
+/* Global Navbar css disetting */
+.ul-navbar {
+
+box-sizing: border-box;
+display: flex;
+padding: 10px; /* 10px */
+justify-content: center;
+}  
+  
+  /* mobile-phone */
+
+@media (max-width: 450px) {
+
 /* Navbar dalam kotak hitam css disetting */
 .li-navbar {
-  font-size: 70% /* nanti diganti lagi */
+  font-size: 70%; /* nanti diganti lagi */
   list-style-type: none; 
   padding: 12px; /* 30px */ 
   margin: 0.3%; /* 2% */
   border: 2px solid black; /* harus disetting border box nya */
 }
 
-/* nnti diganti lgi */
-.li-navbar a:hover {
-  color: red;
-} 
+
 
 /* Global Navbar css disetting */
 .ul-navbar {
@@ -41,6 +65,13 @@ body {
   align-items: center;
 }
 
+}
+
+/* nnti diganti lgi */
+.li-navbar a:hover {
+  color: red;
+}
+  
 .container-tulisan {
   display: flex;
   justify-content: center;
