@@ -20,7 +20,7 @@ body {
 .li-navbar {
   font-size: 70% /* nanti diganti lagi */
   list-style-type: none;
-  padding: 30px; /* 30px */ 
+  padding: 12px; /* 30px */ 
   margin: 2%; /* 2% */
   border: 2px solid black; /* harus disetting border box nya */
 }
