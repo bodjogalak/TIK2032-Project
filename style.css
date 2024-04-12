@@ -70,6 +70,7 @@ justify-content: center;
 /* nnti diganti lgi */
 .li-navbar a:hover {
   color: red;
+  border-bottom: 1px solid blue;
 }
   
 .container-tulisan {
@@ -130,7 +131,7 @@ color: black;
 }  
 
  /* buat navbar1 di contact.html */
-.ul-navbar a:hover {
+.ul-navbar1 a:hover {
   color: rgb(0, 0, 255);
   border-bottom: 1px solid blue;
 
