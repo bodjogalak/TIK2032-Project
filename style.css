@@ -109,10 +109,7 @@ justify-content: center;
 }
 
 
-.awalan-editcss {
 
-position: relative;
-}  
 .gmbr2 {
   display: flex;
 
@@ -121,6 +118,9 @@ position: relative;
   padding-left: 10px;
 }
 
+.gmbr2 img {
+  position: relative;
+}  
 .gmbr2 button {
 
 
