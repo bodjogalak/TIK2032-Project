@@ -36,3 +36,4 @@ setTimeout(komputerlokal,50000);
 function komputerlokal() {
   console.log("reply from server 200");
 }  
+ // console.timeEnd("timeout");
