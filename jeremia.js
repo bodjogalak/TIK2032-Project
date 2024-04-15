@@ -44,7 +44,7 @@ function komputerlokal() {
   xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project');
   
 
-  if (this.status == 200) {
+  if (xhr.status == 200) {
   console.log("reply from server 200");
     setTimeout(() => {
       xhr.onload = () => {
