@@ -108,6 +108,11 @@ justify-content: center;
   margin-left: 7%;
 }
 
+
+.awalan-editcss {
+
+position: relative;
+}  
 .gmbr2 {
   display: flex;
 
@@ -118,6 +123,9 @@ justify-content: center;
 
 .gmbr2 button {
 
+
+position: absolute;
+top: 50%  
 background-color: transparent;
 border: 1px solid #3498db;  
 /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */  
