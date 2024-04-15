@@ -41,11 +41,14 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
+ // xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
   
 
   if (this.status == 200) {
   console.log("reply from server 200");
+  window.addEventListener("loader", () => {
+    document.querySelector(".load").classList.add("load--hidden");
+  });
     setTimeout(() => {
      // xhr.onload = () => {
         //let data = JSON.parse(xhr.response);
