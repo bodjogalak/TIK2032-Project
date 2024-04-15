@@ -32,6 +32,7 @@ console.time("timeout");
 for (let i = 0; i < 100000; i++) {
 setTimeout(() => {
   console.log("reply from server 200");
-}, 2000);       
+  console.timeEnd("timeout");
+}, 5000);       
 
 }
