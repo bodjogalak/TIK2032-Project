@@ -41,16 +41,16 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','http://rekayasadw.blogspot.com/2023/09/jeremia.html');
+  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
   
 
-  if (xhr.status == 200) {
+  if (this.status == 200) {
   console.log("reply from server 200");
     setTimeout(() => {
-      xhr.onload = () => {
+     // xhr.onload = () => {
         //let data = JSON.parse(xhr.response);
-        console.log(xhr.response);
-      };
+       // console.log(xhr.response);
+     // };
     }, 5000);
   } else {
     console.log("failed to connect server");
