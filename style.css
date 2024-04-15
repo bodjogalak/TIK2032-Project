@@ -125,7 +125,7 @@ justify-content: center;
 
 /* position: absolute; */  
 background-color: transparent;
-border: 1px solid #3498db;  
+/* border: 1px solid #3498db; */  
 /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */  
 cursor: pointer;  
 }
