@@ -13,3 +13,5 @@ console.log(usia);
 function bukagalleryhtml() {
   window.open("gunung.jpg");
 }
+function gambarjeremia2() {
+  window.open("jeremia2.jpg");
