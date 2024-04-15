@@ -118,8 +118,8 @@ justify-content: center;
 
 .gmbr2 button {
 
-width: 45%;
-height: 45%;  
+background-color: rgba(24, 100, 171, 0.1);
+  
 cursor: pointer;  
 }
 
