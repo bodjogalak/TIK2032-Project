@@ -28,7 +28,7 @@ function gambargallery3() {
 window.open("latihan.jpg");
 } 
    // AJAX
-let xhr = new XMLHttpRequest();
+// let xhr = new XMLHttpRequest();
 console.time("timeout");
 
   // looping buat komputer lokal untuk Get ke server
@@ -58,6 +58,6 @@ function komputerlokal() {
   } else {
     console.log("failed to connect server");
   }
-  xhr.send();
+ // xhr.send();
 }  
  // console.timeEnd("timeout");
