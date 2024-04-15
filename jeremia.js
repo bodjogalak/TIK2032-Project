@@ -11,7 +11,7 @@ console.log(nama);
 console.log(usia);
 
 function bukagalleryhtml() {
-  window.open("gunung.jpg");
+  window.open("gunung2.jpg");
 }
 function gambarjeremia2() {
   window.open("jeremia2.jpg");
