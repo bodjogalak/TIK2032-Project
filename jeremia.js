@@ -9,3 +9,7 @@ function generateBiodata() {
 console.log(nama);
 
 console.log(usia);
+
+function bukagalleryhtml() {
+  window.open("gunung.jpg");
+}
