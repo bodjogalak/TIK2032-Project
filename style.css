@@ -120,9 +120,8 @@ justify-content: center;
   
 .gmbr2 button {
 
-
 position: absolute;
-top: 100%;  
+top: 80%;  
 left: 90%;  
 background-color: transparent;
 border: 1px solid #3498db;  
