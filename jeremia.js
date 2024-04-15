@@ -34,11 +34,11 @@ console.time("timeout");
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
 for (let i = 0; i < 3; i++) {
-setTimeout(() => {
+//setTimeout(() => {
   komputerlokal();
 
-   console.timeEnd("timeout");
- },50000);       
+  // console.timeEnd("timeout");
+// },50000);       
 }
 function komputerlokal() {
  // xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
