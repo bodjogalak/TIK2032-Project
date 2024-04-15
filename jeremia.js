@@ -31,7 +31,11 @@ console.time("timeout");
 
   // looping buat komputer lokal untuk Get ke server
 for (let i = 20; i >= 0; i++) {
-setTimeout(komputerlokal,50000);       
+setTimeout(() => {
+  komputerlokal();
+
+   console.timeEnd("timeout");
+ },50000);       
 }
 function komputerlokal() {
   console.log("reply from server 200");
