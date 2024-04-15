@@ -41,7 +41,7 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project');
+  xhr.open('GET','https://www.codeacademy.com');
   
 
   if (xhr.status == 200) {
@@ -52,7 +52,9 @@ function komputerlokal() {
         console.log(xhr.response);
       };
     }, 5000);
-  }  
+  } else {
+    console.log("failed to connect server");
+  }
   xhr.send();
 }  
  // console.timeEnd("timeout");
