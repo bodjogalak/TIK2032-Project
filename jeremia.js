@@ -26,7 +26,9 @@ function gambargallery2() {
 
 function gambargallery3() {
 window.open("latihan.jpg");
-}
+} 
+   // AJAX
+let xhr = new XMLHttpRequest();
 console.time("timeout");
 
   // looping buat komputer lokal untuk Get ke server
@@ -39,6 +41,18 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
+  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project');
+  
+
+  if (this.status == 200) {
   console.log("reply from server 200");
+    setTimeout(() => {
+      xhr.onload = () => {
+        let data = JSON.parse(xhr.response);
+        console.log(data);
+      };
+    }, 5000);
+  }  
+  xhr.send();
 }  
  // console.timeEnd("timeout");
