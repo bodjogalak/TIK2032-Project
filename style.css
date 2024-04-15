@@ -157,6 +157,29 @@ color: black;
   background-color: transparent;
   cursor: pointer;
 }
+.load {
+cursor: pointer;
+display: flex
+align-items: center;
+justify-content: center;
+}
+.load--hidden {
+  opacity: 0;
+  visibility: hidden;
+}  
+.load::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #009578;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite
+}   
+@keyframes loading {
+  from { transform: rotate(0turn) }
+  to { transform: rotate(1turn) }
+}
 .kontak {
   display: flex;
   justify-content: center;
