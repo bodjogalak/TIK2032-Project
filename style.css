@@ -151,7 +151,10 @@ color: black;
 
 }  
 
-
+.gmbr-naikgunung button {
+  backgroud-color: transparent;
+  cursor: pointer;
+}
 .kontak {
   display: flex;
   justify-content: center;
