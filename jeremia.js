@@ -41,7 +41,7 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','https://regres.in/api/users');
+  xhr.open('GET','http://rekayasadw.blogspot.com/2023/09/jeremia.html');
   
 
   if (xhr.status == 200) {
