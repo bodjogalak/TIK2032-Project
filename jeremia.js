@@ -16,3 +16,14 @@ function bukagalleryhtml() {
 function gambarjeremia2() {
   window.open("jeremia2.jpg");
 }
+function gambargallery1() {
+
+}
+
+function gambargallery2() {
+
+}
+
+function gambargallery3() {
+
+}
