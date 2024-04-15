@@ -116,6 +116,12 @@ justify-content: center;
   padding-left: 10px;
 }
 
+.gmbr2 button {
+
+right: 45%;
+cursor: pointer;  
+}
+
 .navbar1 {
   margin-top: 35px;
   margin-left: 10px;
