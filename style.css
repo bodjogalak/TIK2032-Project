@@ -45,7 +45,7 @@ justify-content: center;
 
 /* Navbar dalam kotak hitam css disetting */
 .li-navbar {
-  font-size: 70%; /* nanti diganti lagi */
+  font-size: 90%; /* nanti diganti lagi */
   list-style-type: none; 
   padding: 12px; /* 30px */ 
   margin: 0.3%; /* 2% */
@@ -152,6 +152,7 @@ color: black;
 }  
 
 .gmbr-naikgunung button {
+  font-size: 50%;
   background-color: transparent;
   cursor: pointer;
 }
