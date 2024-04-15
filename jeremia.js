@@ -33,7 +33,7 @@ console.time("timeout");
 
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
-for (let i = 0; i < 100000; i++) {
+for (let i = 0; i < 3; i++) {
 setTimeout(() => {
   komputerlokal();
 
@@ -48,8 +48,8 @@ function komputerlokal() {
   console.log("reply from server 200");
     setTimeout(() => {
       xhr.onload = () => {
-        let data = JSON.parse(xhr.response);
-        console.log(data);
+        //let data = JSON.parse(xhr.response);
+        console.log(xhr.response);
       };
     }, 5000);
   }  
