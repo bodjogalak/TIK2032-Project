@@ -41,7 +41,7 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','https://www.bodjogalak.github.io/TIK2032-Project/');
+  xhr.open('GET','https://regres.in/api/users');
   
 
   if (xhr.status == 200) {
