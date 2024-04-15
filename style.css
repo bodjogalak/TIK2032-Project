@@ -112,15 +112,12 @@ justify-content: center;
 
 .gmbr2 {
   display: flex;
-
+ position: relative;
   right: 10%;
   top: 80%;
   padding-left: 10px;
 }
-
-.gmbr2 img {
-  position: relative;
-}  
+  
 .gmbr2 button {
 
 
