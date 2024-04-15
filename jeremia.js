@@ -28,11 +28,10 @@ function gambargallery3() {
 window.open("latihan.jpg");
 }
 console.time("timeout");
+function komputerlokal() {
+  console.log("reply from server 200");
+}  
   // looping buat komputer lokal untuk Get ke server
 for (let i = 0; i < 100000; i++) {
-setTimeout(() => {
-  console.log("reply from server 200");
-  console.timeEnd("timeout");
-}, 5000);       
-
+setTimeout(komputerlokal,10000);       
 }
