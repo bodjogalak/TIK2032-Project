@@ -41,7 +41,7 @@ setTimeout(() => {
  },50000);       
 }
 function komputerlokal() {
-  xhr.open('GET','https://www.codeacademy.com');
+  xhr.open('GET','https://www.bodjogalak.github.io/TIK2032-Project/');
   
 
   if (xhr.status == 200) {
