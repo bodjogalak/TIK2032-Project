@@ -43,8 +43,8 @@ console.time("timeout");
 function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
-
-  if (this.readyState == 2 || this.status == 200){
+      // this.status == 200
+  if (this.readyState == 1){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
