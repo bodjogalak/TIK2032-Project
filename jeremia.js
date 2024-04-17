@@ -41,7 +41,7 @@ console.time("timeout");
 // },50000);       
 // }
 function komputerlokal() {
-  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
+  xhr.open('GET','https://api.github.com/users/petanikode');
   
 
   if (this.readyState == 4 && this.status == 200){
