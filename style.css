@@ -159,8 +159,8 @@ color: black;
 }
 .load {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 70%;
+  left: 50%;
 cursor: pointer;
 width: 10vw; /* 100vw */
 height: 30vh; /* 100vh */
