@@ -28,7 +28,7 @@ function gambargallery3() {
 window.open("latihan.jpg");
 } 
    // AJAX
-// let xhr = new XMLHttpRequest();
+ let xhr = new XMLHttpRequest();
 console.time("timeout");
 
   // looping buat komputer lokal untuk Get ke server
@@ -41,7 +41,7 @@ console.time("timeout");
 // },50000);       
 // }
 function komputerlokal() {
- // xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
+  xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
   
 
   if (this.readyState == 4 && this.status == 200){
@@ -50,9 +50,9 @@ function komputerlokal() {
     document.querySelector(".load").classList.add("load--hidden");
   });
    // setTimeout(() => {
-     // xhr.onload = () => {
-        //let data = JSON.parse(xhr.response);
-       // console.log(xhr.response);
+      xhr.onload = () => {
+        let data = JSON.parse(this.responseText);
+        console.log(data);
      // };
   //  }, 5000);
   } // else {
