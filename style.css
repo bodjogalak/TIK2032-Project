@@ -160,7 +160,7 @@ color: black;
 .load {
   position: fixed;
   top: 20%;
-  left: 35%;
+  left: 25%;
 cursor: pointer;
 width: 50vw; /* 100vw */
 height: 70vh; /* 100vh */
