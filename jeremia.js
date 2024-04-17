@@ -58,6 +58,6 @@ function komputerlokal() {
   } // else {
    // console.log("failed to connect server");
  // }
- // xhr.send();
+  xhr.send();
 }  
  // console.timeEnd("timeout");
