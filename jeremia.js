@@ -42,7 +42,7 @@ console.time("timeout");
 // }
 function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
-  
+  xhr.send();
 
   if (this.readyState == 2 || this.status == 200){
   console.log("reply from server 200");
@@ -58,6 +58,6 @@ function komputerlokal() {
   } // else {
    // console.log("failed to connect server");
  // }
-  xhr.send();
+ // xhr.send();
 }  
  // console.timeEnd("timeout");
