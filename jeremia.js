@@ -46,7 +46,7 @@ function komputerlokal() {
 
  // if (this.status == 200) {
   console.log("reply from server 200");
-  window.addEventListener("loader", () => {
+  window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
   });
    // setTimeout(() => {
