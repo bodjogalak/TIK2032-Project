@@ -45,7 +45,7 @@ function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200
-  if (this.readyState == 0 || this.status < 200){
+  if (this.readyState == 3 || this.status == 200){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
@@ -57,9 +57,9 @@ function komputerlokal() {
     //  };
   //  }, 5000);
   }  else {
-   // console.log("failed to connect server");
+    console.log("failed to connect server");
 
-    console.log(this.responseText);
+   // console.log(this.responseText);
   }
  // xhr.send();
 }  
