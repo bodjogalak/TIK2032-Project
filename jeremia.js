@@ -44,7 +44,7 @@ function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200
-  if (this.readyState == 1){
+  if (this.readyState == 0){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
