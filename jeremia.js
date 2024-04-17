@@ -55,9 +55,11 @@ function komputerlokal() {
         console.log(data);
       };
   //  }, 5000);
-  } // else {
+  }  else {
    // console.log("failed to connect server");
- // }
+
+    console.log(this.responseText);
+  }
  // xhr.send();
 }  
  // console.timeEnd("timeout");
