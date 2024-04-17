@@ -44,7 +44,7 @@ function komputerlokal() {
  // xhr.open('GET','https://bodjogalak.github.io/TIK2032-Project/gunung.jpg');
   
 
- // if (this.status == 200) {
+  if (this.status == 200) {
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
@@ -55,9 +55,9 @@ function komputerlokal() {
        // console.log(xhr.response);
      // };
   //  }, 5000);
-//  }  else {
-  //  console.log("failed to connect server");
-//  }
+  }  else {
+    console.log("failed to connect server");
+  }
  // xhr.send();
 }  
  // console.timeEnd("timeout");
