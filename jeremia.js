@@ -58,7 +58,7 @@ function komputerlokal() {
   //  }, 5000);
   }  else {
     console.log("failed to connect server");
-
+    console.log(this.status);
    // console.log(this.responseText);
   }
  // xhr.send();
