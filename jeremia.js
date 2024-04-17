@@ -59,6 +59,11 @@ function komputerlokal() {
   }  else {
     console.log("failed to connect server");
     console.log(this.status);
+
+    xhr.onload = () => {
+        let data = JSON.parse(xhr.response);
+        console.log(data);
+      };
    // console.log(this.responseText);
   }
  // xhr.send();
