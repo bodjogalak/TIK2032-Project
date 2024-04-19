@@ -51,19 +51,19 @@ function komputerlokal() {
     document.querySelector(".load").classList.add("load--hidden");
   });
    // setTimeout(() => {
-    //  xhr.onload = () => {
-      //  let data = JSON.parse(this.responseText);
-      //  console.log(data);
-    //  };
+      xhr.onload = () => {
+        let data = JSON.parse(this.responseText);
+        console.log(data);
+      };
   //  }, 5000);
   }  else {
     console.log("failed to connect server");
     console.log(this.readyState); // xhr.status
 
-    xhr.onload = () => {
-        let data = JSON.parse(xhr.response);
-        console.log(data);
-      };
+   // xhr.onload = () => {
+     //   let data = JSON.parse(xhr.response);
+       // console.log(data);
+     // };
    // console.log(this.responseText);
   }
  // xhr.send();
