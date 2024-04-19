@@ -52,7 +52,7 @@ function komputerlokal() {
   });
    // setTimeout(() => {
       xhr.onload = () => {
-        data = JSON.parse(this.responseText);
+        data = JSON.parse(xhr.response);
         console.log(data);
       };
   //  }, 5000);
