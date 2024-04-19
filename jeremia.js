@@ -60,6 +60,7 @@ function komputerlokal() {
     console.log("failed to connect server");
     console.log(this.readyState); // xhr.status
 
+    console.log(data);
    // xhr.onload = () => {
      //   let data = JSON.parse(xhr.response);
        // console.log(data);
