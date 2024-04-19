@@ -45,7 +45,7 @@ function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200
-  if (this.readyState == 4 || xhr.status == 200){
+  if (this.readyState == 4){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
@@ -58,7 +58,7 @@ function komputerlokal() {
   //  }, 5000);
   }  else {
     console.log("failed to connect server");
-    console.log(xhr.status);
+    console.log(this.readyState); // xhr.status
 
     xhr.onload = () => {
         let data = JSON.parse(xhr.response);
