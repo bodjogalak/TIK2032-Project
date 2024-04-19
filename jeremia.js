@@ -30,7 +30,7 @@ window.open("latihan.jpg");
    // AJAX
  let xhr = new XMLHttpRequest();
 console.time("timeout");
-
+let data;
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
 // for (let i = 0; i < 3; i++) {
@@ -52,7 +52,7 @@ function komputerlokal() {
   });
    // setTimeout(() => {
       xhr.onload = () => {
-        let data = JSON.parse(this.responseText);
+        data = JSON.parse(this.responseText);
         console.log(data);
       };
   //  }, 5000);
