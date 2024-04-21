@@ -32,7 +32,9 @@ window.open("latihan.jpg");
    // AJAX
  let xhr = new XMLHttpRequest();
 console.time("timeout");
-let data;
+var data[];
+let x[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
+data = document.getElementsByTagName("body")[x];
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
 // for (let i = 0; i < 3; i++) {
@@ -47,7 +49,7 @@ function komputerlokal() {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200
-  if (data == undefined){
+  if (data != undefined){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
