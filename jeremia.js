@@ -18,7 +18,9 @@ function gambarjeremia2() {
 }
 var datadua = document.querySelector(".gmbr1");
 // console.log(document.getElementsByClass(".gmbr1"));
-document.getElementsByClass(".gmbr1").window.addEventListener('click', function (gambargallery1) {
+// document.getElementsByClass(".gmbr1").window.addEventListener("gmbr1", 
+  window.addEventListener("gmbr1", () => {
+    document.querySelector("gmbr1").window.addEventListener('click',function (gambargallery1) {
   window.open("jeremia3.jpg");
 });
 
