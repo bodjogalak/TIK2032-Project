@@ -61,7 +61,7 @@ function komputerlokal() {
   });
 
 
-  console.log(querySelector(".load"));  
+  console.log(document.querySelector(".load"));  
    // setTimeout(() => {
       xhr.onload = () => {
         data = JSON.parse(xhr.response);
