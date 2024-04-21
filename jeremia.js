@@ -22,6 +22,7 @@ var datadua = document.querySelector(".gmbr1");
   window.addEventListener("gmbr1", () => {
     document.querySelector(".gmbr1").window.addEventListener('click',function (gambargallery1) {
   window.open("jeremia3.jpg");
+    });
 });
 
 function gambargallery2() {
@@ -38,6 +39,7 @@ let data;
 let datas;
 // let x[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
 datas = document.getElementsByTagName("body")[1,2,3,4,5,6,7,8,9,10];
+console.log(datas);
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
 // for (let i = 0; i < 3; i++) {
