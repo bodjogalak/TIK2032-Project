@@ -16,9 +16,10 @@ function bukagalleryhtml() {
 function gambarjeremia2() {
   window.open("jeremia2.jpg");
 }
-function gambargallery1() {
+var datadua = document.querySelector(".gmbr1");
+datadua.addEventListener('click', function (gambargallery1) {
   window.open("jeremia3.jpg");
-}
+});
 
 function gambargallery2() {
  window.open("gunung.jpg");
