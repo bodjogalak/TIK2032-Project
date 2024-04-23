@@ -162,6 +162,9 @@ color: black;
   background-color: transparent;
   cursor: pointer;
 }
+.gmbr-naikgunung img {
+ cursor: pointer;
+}  
 .load {
   position: fixed;
   top: 20%;
