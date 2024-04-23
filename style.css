@@ -135,7 +135,10 @@ background-color: transparent;
 /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */  
 cursor: pointer;  
 }
+.gmbr2 img {
+  cursor: pointer;
 
+}  
 .navbar1 {
   margin-top: 35px;
   margin-left: 10px;
