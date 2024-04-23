@@ -71,7 +71,7 @@ function komputerlokal() {
         for (let u = 0; u < 3; u++)
         
         console.log(data);
-      };
+      }; }
   //  }, 5000);
   }  else {
     console.log("failed to connect server");
