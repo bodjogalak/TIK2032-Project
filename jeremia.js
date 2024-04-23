@@ -54,7 +54,7 @@ let datas;
  // }
 function komputerlokal() {
 
-for (let x = 0; x < 1; x++) {
+//for (let x = 0; x < 1; x++) {
 
 // setTimeout(() => {
   
@@ -62,15 +62,15 @@ for (let x = 0; x < 1; x++) {
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200 ||
-  if (data != undefined || datas == null){
+  if (data == undefined || datas == null){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
   });
     console.timeEnd("timeout");
    //  },10000);
-  }
-}
+//  }
+// }
   console.log(document.querySelector(".load"));  
    // setTimeout(() => {
       xhr.onload = () => {
