@@ -70,6 +70,7 @@ for (let x = 0; x < 1; x++) {
     console.timeEnd("timeout");
    //  },10000);
   }
+}
   console.log(document.querySelector(".load"));  
    // setTimeout(() => {
       xhr.onload = () => {
