@@ -39,8 +39,8 @@ let data;
 let datas;
 // let x[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
 for (let i = 0; i < 10; i++) {
-datas = document.getElementsByTagName("body")[i];
-datas.getElementsByTagName("body")[0].innerHTML = "Hello";
+datas = document.getElementsByTagName("h1")[i];
+datas.getElementsByTagName("h1")[0].innerHTML = "Hello";
 console.log(datas); }
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
