@@ -56,7 +56,7 @@ function komputerlokal() {
 
 for (let x = 0; x < 1; x++) {
 
-setTimeout(() => {
+// setTimeout(() => {
   
  // ini 'GET' bru situs website sebenarnya
   xhr.open('GET','https://api.github.com/users/petanikode');
@@ -68,7 +68,7 @@ setTimeout(() => {
     document.querySelector(".load").classList.add("load--hidden");
   });
     console.timeEnd("timeout");
-     },10000);
+   //  },10000);
   }
   console.log(document.querySelector(".load"));  
    // setTimeout(() => {
