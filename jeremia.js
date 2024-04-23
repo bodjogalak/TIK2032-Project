@@ -38,8 +38,10 @@ console.time("timeout");
 let data;
 let datas;
 // let x[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
-datas = document.getElementsByTagName("body")[1,2,3,4,5,6,7,8,9,10];
-console.log(datas);
+for (let i = 0; i < 10; i++) {
+datas = document.getElementsByTagName("body")[i];
+datas.getElementsByTagName("body")[0].innerHTML = "Hello";
+console.log(datas); }
   // looping buat komputer lokal untuk Get ke server
 //for (let i = 20; i >= 0; i++) {
 // for (let i = 0; i < 3; i++) {
@@ -53,8 +55,8 @@ function komputerlokal() {
  // ini 'GET' bru situs website sebenarnya
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
-      // this.status == 200
-  if (data == undefined || datas != undefined){
+      // this.status == 200 ||
+  if (data == undefined && datas == null){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
