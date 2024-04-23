@@ -53,11 +53,11 @@ let datas;
 // },50000);       
  // }
 function komputerlokal() {
-     let y = 0;
+     
 //for (let x = 0; x < 1; x++) {
 
 // setTimeout(() => {
-  do {
+ 
  // ini 'GET' bru situs website sebenarnya
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
@@ -67,11 +67,7 @@ function komputerlokal() {
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
   });
-     setTimeout(() => {
-
-   console.timeEnd("timeout");
- },50000);       
-   }
+    
    //  },10000);
 //  }
 // }
@@ -95,7 +91,7 @@ function komputerlokal() {
      // };
    // console.log(this.responseText);
   }
- } while(y < 10; y++)
+
  // xhr.send();
 }  
  // console.timeEnd("timeout");
