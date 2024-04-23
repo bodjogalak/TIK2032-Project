@@ -45,19 +45,19 @@ let datas;
 // console.log(datas); }
   // looping buat komputer lokal untuk Get ke server
 // for (let i = 20; i >= 0; i++) {
- for (let i = 0; i < 3; i++) {
-setTimeout(() => {
+// for (let i = 0; i < 3; i++) {
+// setTimeout(() => {
   komputerlokal();
 
-   console.timeEnd("timeout");
- },50000);       
-  }
+  // console.timeEnd("timeout");
+// },50000);       
+ // }
 function komputerlokal() {
  // ini 'GET' bru situs website sebenarnya
   xhr.open('GET','https://api.github.com/users/petanikode');
   xhr.send();
       // this.status == 200 ||
-  if (data != undefined || datas == null){
+  if (data == undefined || datas == null){
   console.log("reply from server 200");
   window.addEventListener("load", () => {
     document.querySelector(".load").classList.add("load--hidden");
