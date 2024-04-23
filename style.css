@@ -109,6 +109,9 @@ justify-content: center;
   font-size: 250%;
   cursor: pointer;
 }
+.gmbr1 img {
+  cursor: pointer;
+}  
 .lari {
   display: block;
   margin-left: 7%;
