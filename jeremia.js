@@ -68,7 +68,7 @@ setTimeout(() => {
     document.querySelector(".load").classList.add("load--hidden");
   });
     console.timeEnd("timeout");
-     }, 10000);
+     },10000);
   }
   console.log(document.querySelector(".load"));  
    // setTimeout(() => {
