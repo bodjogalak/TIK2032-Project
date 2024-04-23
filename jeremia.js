@@ -44,14 +44,14 @@ let datas;
 // datas.getElementsByTagName("h1")[0].innerHTML = "Hello";
 // console.log(datas); }
   // looping buat komputer lokal untuk Get ke server
-//for (let i = 20; i >= 0; i++) {
-// for (let i = 0; i < 3; i++) {
-//setTimeout(() => {
+// for (let i = 20; i >= 0; i++) {
+ for (let i = 0; i < 3; i++) {
+setTimeout(() => {
   komputerlokal();
 
-  // console.timeEnd("timeout");
-// },50000);       
-// }
+   console.timeEnd("timeout");
+ },50000);       
+  }
 function komputerlokal() {
  // ini 'GET' bru situs website sebenarnya
   xhr.open('GET','https://api.github.com/users/petanikode');
