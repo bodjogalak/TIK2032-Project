@@ -68,7 +68,7 @@ function komputerlokal() {
    // setTimeout(() => {
       xhr.onload = () => {
         data = JSON.parse(xhr.response);
-        for (let u = 0; u < 3; u++)
+        for (let u = 0; u < 3; u++) {
         
         console.log(data);
       }; }
