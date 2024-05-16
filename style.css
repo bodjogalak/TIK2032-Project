@@ -45,7 +45,7 @@ justify-content: center;
 
 /* Navbar dalam kotak hitam css disetting */
 .li-navbar {
-  font-size: 70%; /* nanti diganti lagi */
+  font-size: 100%; /* nanti diganti lagi */
   list-style-type: none; 
   padding: 12px; /* 30px */ 
   margin: 0.3%; /* 2% */
@@ -70,6 +70,7 @@ justify-content: center;
 /* nnti diganti lgi */
 .li-navbar a:hover {
   color: rgb(0, 0, 255);
+   animation: loading 0.75s;
   border-bottom: 1px solid blue;
 }
   
@@ -101,21 +102,43 @@ justify-content: center;
   align-items: center;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
-
+.gmbr1 button {
+  background-color: transparent;
+  font-size: 250%;
+  cursor: pointer;
+}
+.gmbr1 img {
+  cursor: pointer;
+}  
 .lari {
   display: block;
   margin-left: 7%;
 }
 
+
+
 .gmbr2 {
   display: flex;
-
+ /*position: relative; */
   right: 10%;
   top: 80%;
   padding-left: 10px;
 }
+  
+.gmbr2 button {
 
+/* position: absolute; */  
+background-color: transparent;
+/* border: 1px solid #3498db; */  
+/* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */  
+cursor: pointer;  
+}
+.gmbr2 img {
+  cursor: pointer;
+
+}  
 .navbar1 {
   margin-top: 35px;
   margin-left: 10px;
@@ -137,7 +160,44 @@ color: black;
 
 }  
 
-
+.gmbr-naikgunung button {
+  font-size: 150%;
+  background-color: transparent;
+  cursor: pointer;
+}
+.gmbr-naikgunung img {
+ cursor: pointer;
+}  
+.load {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+cursor: pointer;
+width: 50vw; /* 100vw */
+height: 70vh; /* 100vh */
+display: flex;
+align-items: center;
+justify-content: center;
+  background: transparent; /* #333333 */
+  transition: opacity 0.75s, visibility 0.75s;
+}
+.load--hidden {
+  opacity: 0;
+  visibility: hidden;
+}  
+.load::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #009578;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite
+}   
+@keyframes loading {
+  from { transform: rotate(0turn) }
+  to { transform: rotate(1turn) }
+}
 .kontak {
   display: flex;
   justify-content: center;
