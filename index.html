@@ -37,13 +37,13 @@
 
 
     // koneksi ke database
-   $koneksi = mysqli_connect("127.0.0.1:3306", "root", "" , "berita");
+   $koneksi = mysqli_connect("192.168.30.23", "root", "" , "aulasegunda");
    
    
    
    
       // melakukan perintah querry pda database
-   $hasil = mysqli_query($koneksi, "SELECT * FROM home");
+   $hasil = mysqli_query($koneksi, "SELECT * FROM aula");
    
    $data = mysqli_fetch_assoc($hasil);
    if ($hasil) {
