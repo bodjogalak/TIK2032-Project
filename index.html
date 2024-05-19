@@ -37,13 +37,13 @@
 
 
     // koneksi ke database
-   $koneksi = mysqli_connect("192.168.30.23", "root", "" , "aulasegunda");
+   $koneksi = mysqli_connect("192.168.30.23", "user", "" , "user");
    
    
    
    
       // melakukan perintah querry pda database
-   $hasil = mysqli_query($koneksi, "SELECT * FROM aula");
+   $hasil = mysqli_query($koneksi, "SELECT * FROM users");
    
    $data = mysqli_fetch_assoc($hasil);
    if ($hasil) {
@@ -81,7 +81,7 @@
      // echo $htmldoc->saveHTML();
    ?>
     <div class="tulis">
-    <a><!--ini adalah pages home--><?php var_dump($data['isinya']); ?></a>
+    <a><!--ini adalah pages home--><?php var_dump($isidatanya); ?></a>
 
     </div>
     <script src="jeremia.js"></script>
